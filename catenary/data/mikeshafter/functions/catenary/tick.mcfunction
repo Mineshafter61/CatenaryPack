@@ -9,6 +9,8 @@ execute at @e[type=minecart,tag=catenary] if block ~ ~ ~ rail[shape=south_east] 
 execute at @e[type=minecart,tag=catenary] if block ~ ~ ~ rail[shape=south_west] run setblock ~ ~4 ~ iron_bars
 execute at @e[type=minecart,tag=catenary] if block ~ ~ ~ rail[shape=north_east] run setblock ~ ~4 ~ iron_bars
 execute at @e[type=minecart,tag=catenary] if block ~ ~ ~ rail[shape=north_west] run setblock ~ ~4 ~ iron_bars
+## TCCoasters
+execute at @e[type=minecart,tag=tccoaster] run setblock ~ ~4 ~ iron_bars
 
 # Ascending track
 execute at @e[type=minecart,tag=catenary] if block ~ ~ ~ rail[shape=ascending_south] run setblock ~ ~5 ~ iron_bars
